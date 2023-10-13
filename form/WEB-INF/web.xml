@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>Survey</servlet-name>
+        <servlet-class>Survey</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Survey</servlet-name>
+        <url-pattern>/results</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.xtml</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>
