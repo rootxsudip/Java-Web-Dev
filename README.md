@@ -6,3 +6,4 @@
 | 03  |  [Servlet Basics](./Servlet%20Basics.md)
 | 04  |  [Basic Servlet Template](./Template)
 | 05  |  [Basics of Generic Servlet](./GenericServlet.md)
+| 06  |  [Basics of Http Servlet](./HttpServlet.md)
