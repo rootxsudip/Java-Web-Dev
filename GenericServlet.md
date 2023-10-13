@@ -1,4 +1,5 @@
 In Java, the GenericServlet class is a part of the javax.servlet package. Generic Servlet implements 5 methods and so developers can create their own servlets by extending this class and overriding its methods, such as service(), init(), and destroy(), to provide custom functionality.
+* We can run the generic servlet just by overriding the service() method because the other methods are already overriden in generic servlet.
 #### Keypoints:
 * Generic servlets are protocol-agnostic, meaning they can handle requests and responses for various network protocols, not just HTTP. However, in practice, they are often used for handling HTTP requests.
 * Limited functionality: Generic servlets provide a basic framework for servlet development but don't include built-in support for handling HTTP-specific features like request parameters, session management, or response headers. Developers typically use additional classes such as HttpServletRequest and HttpServletResponse to work with HTTP-specific features.
