@@ -5,3 +5,4 @@
 | 02  |  [Environment Setup](./Setup.md)
 | 03  |  [Servlet Basics](./Servlet%20Basics.md)
 | 04  |  [Basic Servlet Template](./Template)
+| 05  |  [Basics of Generic Servlet](./GenericServlet.md)
