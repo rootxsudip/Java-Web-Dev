@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app>
+
+<!-- Servlet Declaration -->
+    <servlet>
+        <servlet-name>S1</servlet-name>
+        <servlet-class>S1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>S2</servlet-name>
+        <servlet-class>S2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>S1</servlet-name>
+        <url-pattern>/S1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>S2</servlet-name>
+        <url-pattern>/S2</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
