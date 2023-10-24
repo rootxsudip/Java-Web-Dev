@@ -25,3 +25,36 @@ Used in conjunction with <jsp:include ... >, it allows you to pass parameters to
 Used to forward the request and response objects to another resource, typically another JSP.
 
 These are some of the most important JSP tags used in developing dynamic web applications. They allow you to mix Java code with HTML or XML templates to create dynamic content and functionality. The choice of tag depends on the specific requirements of your application and your coding style.
+
+#### Example: Show random and date using jsp - page directives and include
+index.jsp
+```
+<%@page contentType="text/html" pageEncoding="UTF-8" %>
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <%@include file="random.jsp" %>
+            <h3>Included resource using page directtive and include</h3>
+    </body>
+
+    </html>
+```
+random.jsp
+```
+<%@page import="java.util.Random,java.util.ArrayList,java.util.Date,java.io.*" %>
+    <h1>Random Number:
+        <% Random r=new Random(); int n=r.nextInt(10); %>
+            <%= n %>
+                <p>Current Date:
+                    <%= new Date().toString() %>
+                </p>
+    </h1>
+```
