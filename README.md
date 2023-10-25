@@ -21,3 +21,4 @@
 | 18  |  [JSP Tags](JSP%20tags.md)
 | 19  |  [Error Handling](Error%20Handling.md)
 | 20  |  [Error Handling Mini Project](./ErrorHandling)
+| 21  |  [Custom Tags](./CustomTags.md)
