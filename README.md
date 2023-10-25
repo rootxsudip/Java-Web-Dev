@@ -22,3 +22,4 @@
 | 19  |  [Error Handling](Error%20Handling.md)
 | 20  |  [Error Handling Mini Project](./ErrorHandling)
 | 21  |  [Custom Tags](./CustomTags.md)
+| 22  |  [JSP Implicit Objects](JSP%20Implicit%20Objects.md)
