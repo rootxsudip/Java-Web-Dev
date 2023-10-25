@@ -26,3 +26,4 @@
 | 23  |  [JSTL Basics](./JSTL%20Basics.md)
 | 24  |  [JSTL Core Tags Example](./JSTL%20Core.md)
 | 25  |  [JSTL Function Tags Example](./JSTL%20Functions.md)
+| 26  |  [JSTL DB Connection with Oracle](./JSTL%20DB%20Connection.md)
