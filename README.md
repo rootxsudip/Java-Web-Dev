@@ -23,3 +23,6 @@
 | 20  |  [Error Handling Mini Project](./ErrorHandling)
 | 21  |  [Custom Tags](./CustomTags.md)
 | 22  |  [JSP Implicit Objects](JSP%20Implicit%20Objects.md)
+| 23  |  [JSTL Basics](./JSTL%20Basics.md)
+| 24  |  [JSTL Core Tags Example](./JSTL%20Core.md)
+| 25  |  [JSTL Function Tags Example](./JSTL%20Functions.md)
