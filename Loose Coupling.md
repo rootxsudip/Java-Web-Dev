@@ -47,7 +47,7 @@ public class MarioGame implements GamingConsole{
 	}
 }
 ```
-GamingRunner.java
+GameRunner.java
 ```
 public class GameRunner {
 //	MarioGame game;
